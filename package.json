@@ -1,0 +1,26 @@
+{
+  "name": "sass-made-easy-emgrey02",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rm -f dist/* && parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/sass-made-easy-emgrey02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/sass-made-easy-emgrey02/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/sass-made-easy-emgrey02#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "sass": "^1.49.7"
+  }
+}
